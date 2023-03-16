@@ -1,0 +1,82 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Encabezado */
+  h1 {
+    color: #333;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  /* Formulario */
+  #formulario {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  /* Etiquetas */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* Campos de entrada */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+  }
+  
+  /* Botones */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Estilos específicos para el botón de reset */
+  button[type="reset"] {
+    background-color: #f44336;
+  }
+  
+  button[type="reset"]:hover {
+    background-color: #cc2e28;
+  }
+  
+  /* Estilos para dispositivos móviles */
+  @media (max-width: 500px) {
+    #formulario {
+      padding: 10px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      margin-bottom: 10px;
+    }
+  }
